@@ -1,1 +1,4 @@
-Reset, media queries, and grid
+basic styles, reset
+
+to-do:
+media queries, grid
