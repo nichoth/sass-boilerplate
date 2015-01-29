@@ -1,1 +1,1 @@
-# sass-boilerplate
+Reset, media queries, and grid
