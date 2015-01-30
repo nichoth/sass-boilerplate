@@ -15,6 +15,11 @@
   @extend %clearfix;
 }
 
+%good-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 /*
  * Body resets
  *
@@ -309,8 +314,7 @@ tbody tr:nth-child(odd) th {
  * Home page.
  *****************************/
 .post-list {
-  list-style: none;
-  padding-left: 0;
+  @extend %good-list;
   li {
     margin-bottom: .5em;
   }
